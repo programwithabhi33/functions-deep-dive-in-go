@@ -2,7 +2,8 @@ package main
 
 import (
 	//"fmt"
-	"example.com/functionsDeepDive/recursion"
+	//"example.com/functionsDeepDive/recursion"
+	"example.com/functionsDeepDive/variadicFunctions"
 )
 
 func transformNumbers(numbers *[]int, transform func(int) int ) []int {
@@ -31,5 +32,6 @@ func main() {
 	fmt.Println("Tripled numbers is:", tripledNumbers)*/
   
   //Recursion
-  recursion.RecursionMainFn()
+  //recursion.RecursionMainFn()
+  variadicFunctions.VariadicFunctionsMainFn();
 }
